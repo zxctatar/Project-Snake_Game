@@ -156,6 +156,8 @@ void Logic() {
 int main() {
 	std::srand(std::time(NULL));
 
+	int a = 5;
+
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 	CONSOLE_CURSOR_INFO cursorInfo;
 	GetConsoleCursorInfo(hConsole, &cursorInfo);
