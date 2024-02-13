@@ -6,8 +6,8 @@
 #include <Windows.h>
 
 
-const int WIDTH = 25; // ширина  - - -  x
-const int HEIGHT = 40; // высота | y
+const int WIDTH = 25; // ширина  - - -  y
+const int HEIGHT = 40; // высота | x
 
 bool gameOver;
 
